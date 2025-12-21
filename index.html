@@ -157,7 +157,7 @@
             border-bottom: none;
         }
 
-        /* Card 4 (Case Study): Modern Flex Layout for Action Button */
+        /* Card 4 (Case Study): Flex Layout for Modern UI */
         .card-case-study {
             grid-column: span 2;
         }
@@ -170,6 +170,7 @@
         .case-study-text {
             flex: 1;
         }
+        /* Nice button with hover effect */
         .btn-timer {
             background-color: var(--color-accent);
             color: #ffffff !important;
@@ -178,9 +179,11 @@
             text-decoration: none;
             font-weight: 700;
             font-size: 0.9rem;
-            transition: all 0.3s ease;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             box-shadow: 0 4px 10px rgba(0, 75, 141, 0.2);
             white-space: nowrap;
+            border: none;
+            display: inline-block;
         }
         .btn-timer:hover {
             background-color: #003366;
